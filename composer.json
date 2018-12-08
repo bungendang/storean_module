@@ -1,0 +1,20 @@
+{
+    "name": "bungendang/storean",
+    "description": "Storean module for php",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "autoload": {
+        "psr-4" : {
+            "storean\\" : "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Endang Kurniawan",
+            "email": "halo@bungendang.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
