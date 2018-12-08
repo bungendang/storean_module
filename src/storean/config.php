@@ -31,6 +31,7 @@ class Brand
         $arr = json_decode($data, true);
 		return $arr['results'];
 	}
+// <<<<<<< HEAD
     public function getProducts(){
         // var_dump($this);
         $client = new GuzzleHttp\Client();
@@ -43,4 +44,6 @@ class Brand
         $arr = json_decode($data, true);
         return $arr['results'];
     }
+// =======
+// >>>>>>> 29b02e23761d49d7432e286548dbdb849d6d5859
 }
